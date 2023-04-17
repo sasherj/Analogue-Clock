@@ -1,0 +1,57 @@
+#ClockC {
+    position: relative;
+    border: 2px black solid;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(images/roman-numerals-png-42135.png) no-repeat;
+    background-size: 100%;
+}
+
+#Hhand,
+#Mhand,
+#Shand,
+#Cpoint {
+
+    border-radius: 10px;
+    transform-origin: bottom;
+    position: absolute;
+
+}
+
+#Hhand {
+    height: 25%;
+    width: 3%;
+    top: 25.5%;
+    left: 48.48%;
+    opacity: .8;
+    background-color: black;
+}
+
+#Mhand {
+    height: 32%;
+    width: 2%;
+    top: 18.3%;
+    left: 49%;
+    background-color: rgb(37, 27, 27);
+    opacity: 0.8;
+}
+
+#Shand {
+    background-color: brown;
+    height: 40%;
+    width: 1%;
+    top: 12%;
+    top: 10.15%;
+    left: 49.5%;
+    opacity: .7;
+}
+
+#Cpoint {
+    height: 5%;
+    width: 5%;
+    background-color: black;
+    top: 47.5%;
+    left: 47.50%;
+    opacity: .9;
+}
